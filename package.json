@@ -1,0 +1,37 @@
+{
+  "name": "rijndael-crypto",
+  "version": "1.0.0",
+  "description": "A command-line tool for Rijndael/AES encryption and decryption",
+  "license": "MIT",
+  "author": "",
+  "main": "app.js",
+  "bin": {
+    "rijndael-crypto": "./app.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "rijndael",
+    "aes",
+    "encryption",
+    "cryptography",
+    "cli"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibrahim-dogan/rijndael-crypto-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ibrahim-dogan/rijndael-crypto-cli/issues"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "enquirer": "^2.4.1",
+    "inquirer": "^12.5.2",
+    "ora": "^7.0.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
