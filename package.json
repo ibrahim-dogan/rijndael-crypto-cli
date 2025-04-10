@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "A command-line tool for Rijndael/AES encryption and decryption",
   "license": "MIT",
-  "author": "",
+  "author": "ibrahim-dogan",
   "main": "app.js",
   "bin": {
     "rijndael-crypto": "./app.js"
